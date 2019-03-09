@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="content">
+        <ul>
+          <li>
+            <a href="#"><span>About Me</span></a>
+          </li>
+          <li>
+            <a href="#skills"><span>My skills</span></a>
+          </li>
+          <li>
+            <a href="#works"><span>My Works</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div id="hero">
+        <div class="hero-content">
+          <div class="photo"><img src="img/photo.png" alt="Photo" /></div>
+          <div class="info">
+            <h1 class="upper">Anatoly Nevzorov</h1>
+            <p>
+              Passionate web designer and developer, skilled in Adobe Creative Suite software, HTML, CSS, JavaScript,
+              PHP with 5+ years experience. Creates seamless UX and UI with creative but functional designs. Designed
+              and developed 10+ websites and emails.
+            </p>
+            <div class="contact-info">
+              <span><i class="fas fa-phone"></i> +7 (977) 250-40-74</span>
+              <span><a href="mailto:tolnevz@gmail.com" class="text-link"><i class="fas fa-envelope"></i> tolnevz@gmail.com</a></span>
+              <span><a href="https://www.behance.net/anatolynev365b" class="text-link"><i class="fab fa-behance-square"></i> behance.net</a></span>
+              <span><a href="https://www.behance.net/anatolynev365b" class="text-link"><i class="fab fa-instagram"></i> anatolynevzorov</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="skills">
+        <h1 class="title">My Skills</h1>
+        <div class="skills-info">
+          <div class="languages">
+            <ul>
+              <li class="html">HTML</li>
+              <li class="css">CSS</li>
+              <li class="js">JavaScript</li>
+              <li class="php">PHP</li>
+            </ul>
+          </div>
+
+          <div class="software">
+            <ul>
+              <li class="photoshop">Photoshop</li>
+              <li class="illustrator">Illustrator</li>
+              <li class="indesign">InDesign</li>
+              <li class="aftereffects">AfterEffects</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="works">
+        <h1 class="title">My works</h1>
+        <h3 class="subtitle">Sites</h3>
+        <div class="work-list">
+          <div class="card">
+            <a href="https://picsum.photos/500/500" data-fancybox>
+              <img src="https://picsum.photos/500/500" alt="" />
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://picsum.photos/3987/5000" data-fancybox>
+              <img src="https://picsum.photos/398/398" alt="" />
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://picsum.photos/401/401" data-fancybox>
+              <img src="https://picsum.photos/401/401" alt="" />
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://picsum.photos/308/308" data-fancybox>
+              <img src="https://picsum.photos/308/308" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <h3 class="subtitle">Emails</h3>
+        <div class="work-list">
+          <div class="card">
+            <a href="#"> <img src="https://picsum.photos/500/500" alt="" /> </a>
+          </div>
+          <div class="card">
+            <a href="#"> <img src="https://picsum.photos/398/398" alt="" /> </a>
+          </div>
+          <div class="card">
+            <a href="#"> <img src="https://picsum.photos/401/401" alt="" /> </a>
+          </div>
+          <div class="card">
+            <a href="#"> <img src="https://picsum.photos/308/308" alt="" /> </a>
+          </div>
+          <div class="card">
+            <a href="#"> <img src="https://picsum.photos/463/463" alt="" /> </a>
+          </div>
+          <div class="card">
+            <a href="#"> <img src="https://picsum.photos/555/555" alt="" /> </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="main-footer">Copyright &copy; 2019</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <script>
+      $(window).on("scroll", function() {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("colored");
+        } else {
+          $("nav").removeClass("colored");
+        }
+      });
+    </script>
+  </body>
+</html>
