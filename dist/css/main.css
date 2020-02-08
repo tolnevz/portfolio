@@ -120,13 +120,25 @@ a {
 
 @keyframes js {
   to {
-    width: 60%; } }
+    width: 70%; } }
         #skills .skills-info .languages li.php:after {
           animation-name: php; }
 
 @keyframes php {
   to {
-    width: 50%; } }
+    width: 60%; } }
+        #skills .skills-info .languages li.vue:after {
+          animation-name: vue; }
+
+@keyframes vue {
+  to {
+    width: 40%; } }
+        #skills .skills-info .languages li.python:after {
+          animation-name: python; }
+
+@keyframes python {
+  to {
+    width: 30%; } }
     #skills .skills-info .software {
       grid-area: software;
       margin: auto;
@@ -170,7 +182,7 @@ a {
 
 @keyframes illustrator {
   to {
-    width: 90%; } }
+    width: 95%; } }
         #skills .skills-info .software li.indesign:after {
           animation-name: indesign; }
 
@@ -181,6 +193,18 @@ a {
           animation-name: aftereffects; }
 
 @keyframes aftereffects {
+  to {
+    width: 40%; } }
+        #skills .skills-info .software li.wordpress:after {
+          animation-name: wordpress; }
+
+@keyframes wordpress {
+  to {
+    width: 60%; } }
+        #skills .skills-info .software li.django:after {
+          animation-name: django; }
+
+@keyframes django {
   to {
     width: 40%; } }
 
