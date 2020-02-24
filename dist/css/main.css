@@ -132,7 +132,7 @@ a {
 
 @keyframes vue {
   to {
-    width: 40%; } }
+    width: 50%; } }
         #skills .skills-info .languages li.python:after {
           animation-name: python; }
 
