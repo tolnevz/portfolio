@@ -132,13 +132,13 @@ a {
 
 @keyframes vue {
   to {
-    width: 50%; } }
-        #skills .skills-info .languages li.python:after {
+    width: 60%; } }
+        #skills .skills-info .languages li.laravel:after {
           animation-name: python; }
 
-@keyframes python {
+@keyframes laravel {
   to {
-    width: 30%; } }
+    width: 50%; } }
     #skills .skills-info .software {
       grid-area: software;
       margin: auto;
@@ -205,6 +205,12 @@ a {
           animation-name: django; }
 
 @keyframes django {
+  to {
+    width: 50%; } }
+        #skills .skills-info .software li.python:after {
+          animation-name: python; }
+
+@keyframes python {
   to {
     width: 40%; } }
 
