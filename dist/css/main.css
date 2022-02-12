@@ -2,7 +2,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #222;
+  background: #212529;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -13,7 +13,7 @@ a {
   color: #fff;
   text-decoration: none; }
   a:hover {
-    color: #405ba9;
+    color: #457b9d;
     transition: all 0.5s ease-out; }
   a.text-link:hover {
     color: rgba(255, 255, 255, 0.6);
@@ -75,7 +75,7 @@ a {
   padding-top: 100px;
   display: flex; }
   #hero {
-    background: linear-gradient(rgba(34, 34, 34, 0.8), rgba(64, 91, 169, 0.8)), url(https://picsum.photos/1500/605);
+    background: linear-gradient(rgba(33, 37, 41, 0.9), rgba(69, 123, 157, 0.9)), url(https://picsum.photos/1500/605);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center; }
@@ -118,7 +118,7 @@ nav {
     max-width: 70%;
     margin: auto; }
   nav.colored {
-    background: rgba(64, 91, 169, 0.8);
+    background: rgba(69, 123, 157, 0.9);
     height: 100px;
     padding: 10px 100px; }
     nav.colored ul li a {
@@ -151,10 +151,10 @@ nav {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #3c3c3c;
+  background: #383f45;
   color: #fff;
   height: 60px;
-  border-top: 8px solid #405ba9; }
+  border-top: 8px solid #457b9d; }
 
 @media screen and (min-width: 1171px) {
   #works .work-list {
