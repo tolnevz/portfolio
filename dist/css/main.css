@@ -92,10 +92,10 @@ a.text-link:hover {
   display: flex;
 }
 #hero {
-  background: linear-gradient(rgba(33, 37, 41, 0.9), rgba(69, 123, 157, 0.9)), url(https://picsum.photos/1500/605);
+  background: linear-gradient(rgba(33, 37, 41, 0.9), rgba(69, 123, 157, 0.9)), url(http://placeimg.com/1000/500/tech);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center bottom;
 }
 #hero .hero-content {
   width: 70%;
