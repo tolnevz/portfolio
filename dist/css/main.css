@@ -1,9 +1,15 @@
+:root {
+  --main-color: 26, 104, 87;
+  --bg-color: 30, 39, 46;
+  --ff: rgb(26, 104, 87);
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #212529;
+  background: rgb(var(--bg-color));
   color: #fff;
   height: 100%;
   margin: 0;
@@ -16,7 +22,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #457b9d;
+  color: rgb(var(--main-color));
   transition: all 0.5s ease-out;
 }
 a.text-link:hover {
@@ -92,7 +98,7 @@ a.text-link:hover {
   display: flex;
 }
 #hero {
-  background: linear-gradient(rgba(33, 37, 41, 0.9), rgba(69, 123, 157, 0.9)), url(http://placeimg.com/1000/500/tech);
+  background: linear-gradient(rgba(var(--bg-color), 0.8), rgba(var(--main-color), 0.8)), url(https://picsum.photos/1500/1500);
   background-attachment: fixed;
   background-size: cover;
   background-position: center bottom;
@@ -144,7 +150,7 @@ nav .content {
   margin: auto;
 }
 nav.colored {
-  background: rgba(69, 123, 157, 0.9);
+  background: rgba(var(--main-color), 0.9);
   height: 100px;
   padding: 10px 100px;
 }
@@ -188,7 +194,7 @@ nav ul li:focus {
   background: #383f45;
   color: #fff;
   height: 60px;
-  border-top: 8px solid #457b9d;
+  border-top: 8px solid rgb(var(--main-color));
 }
 
 @media screen and (min-width: 1171px) {
