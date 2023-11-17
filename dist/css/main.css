@@ -98,7 +98,7 @@ a.text-link:hover {
   display: flex;
 }
 #hero {
-  background: linear-gradient(rgba(var(--bg-color), 0.8), rgba(var(--main-color), 0.8)), url(https://picsum.photos/1500/1500);
+  background: linear-gradient(rgba(var(--bg-color), 0.8), rgba(var(--main-color), 0.8)), url(https://random.imagecdn.app/1500/500);
   background-attachment: fixed;
   background-size: cover;
   background-position: center bottom;
