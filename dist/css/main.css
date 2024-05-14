@@ -101,7 +101,8 @@ a.text-link:hover {
   background: linear-gradient(rgba(var(--bg-color), 0.8), rgba(var(--main-color), 0.8)), url(https://random.imagecdn.app/1500/500);
   background-attachment: fixed;
   background-size: contain;
-  background-position: center bottom;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 #hero .hero-content {
   width: 70%;
