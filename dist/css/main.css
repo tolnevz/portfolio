@@ -97,10 +97,10 @@ a.text-link:hover {
   display: flex;
 }
 #hero {
-  background: linear-gradient(rgba(var(--bg-color), 0.8), rgba(var(--main-color), 0.8)), url(https://loremflickr.com/1500/500/abstract/);
+  background: linear-gradient(rgba(var(--bg-color), 0.8), rgba(var(--main-color), 0.8)), url(https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg);
   background-attachment: fixed;
-  background-size: contain;
-  background-position: center top;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 #hero .hero-content {
